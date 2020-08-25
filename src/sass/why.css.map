@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,IAAI,CAAA;EACA,UAAU,EAAE,MAAM;EAClB,UAAU,ECAA,OAAiB;EDC3B,WAAW,EAAE,GAAG;CAInB;;AAPD,AAII,IAJA,CAIA,KAAK,CAAA;EACD,aAAa,EAAE,GAAG;CACrB",
+    "sources": [
+        "why.scss",
+        "variables.scss"
+    ],
+    "names": [],
+    "file": "why.css"
+}

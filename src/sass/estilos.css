@@ -1,3 +1,41 @@
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1em 1.5em;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.hero {
+  text-align: center;
+  padding-bottom: 5em;
+}
+
+.hero .copy {
+  padding-bottom: 2.5em;
+}
+
+.hero__image {
+  height: 300px;
+  margin: 0 calc(-1 * $wrapperSpace);
+  background: url("../images/image-mockups.png") center bottom no-repeat, url("../images/bg-intro-mobile.svg") center no-repeat;
+  background-size: 345px, cover;
+  margin-bottom: 1.2em;
+}
+
+.menu {
+  width: 40px;
+  background: url("../images/icon-hamburger.svg") no-repeat center;
+}
+
+.why {
+  text-align: center;
+  background: #fafafa;
+  padding-top: 5em;
+}
+
 body {
   font-family: 'Public Sans', sans-serif;
   margin: 0;
@@ -10,31 +48,19 @@ body {
   font-size: .9em;
 }
 
-.hero {
-  text-align: center;
-}
-
-.hero .copy {
-  padding-bottom: 1em;
-}
-
-.hero__image {
-  height: 300px;
-  margin: 0 calc(-1 * $wrapperSpace);
-  background: url("../images/image-mockups.png") center bottom no-repeat, url("../images/bg-intro-mobile.svg") center no-repeat;
-  background-size: 345px, cover;
-  margin-bottom: 1.2em;
-}
-
 .wrapper {
   padding: 0 1.5em;
 }
 
-.title__h1 {
+.title__h1, .title__h2 {
   font-size: 2.5em;
   color: #2d314d;
   font-weight: 400;
   margin-bottom: .5em;
+}
+
+.title__h2 {
+  font-size: 1.5em;
 }
 
 .button {

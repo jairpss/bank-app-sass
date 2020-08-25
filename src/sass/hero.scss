@@ -1,0 +1,16 @@
+@import "./variables.scss";
+
+.hero{
+    text-align: center;
+    padding-bottom: 5em;
+    .copy{
+        padding-bottom: 2.5em;
+    }
+    &__image{
+        height: 300px;
+        margin: 0 calc(-1 * $wrapperSpace);
+        background: url('../images/image-mockups.png') center bottom no-repeat, url('../images/bg-intro-mobile.svg') center no-repeat;
+        background-size: 345px, cover;
+        margin-bottom: 1.2em;
+    }
+}

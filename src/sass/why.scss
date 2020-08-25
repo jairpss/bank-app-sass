@@ -1,0 +1,10 @@
+@import "./variables.scss";
+//time 1:34:00
+.why{
+    text-align: center;
+    background: $grayishBlue;
+    padding-top: 5em;
+    .copy{
+        margin-bottom: 4em;
+    }
+}
