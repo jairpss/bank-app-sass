@@ -1,0 +1,21 @@
+.latestArticles {
+  border: 1px solid red;
+}
+
+.latestArticles__grid {
+  display: -ms-grid;
+  display: grid;
+  grid-row-gap: 100px;
+}
+
+.latestArticles__item {
+  border-radius: .5em;
+  overflow: hidden;
+}
+
+.latestArticles__item img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+/*# sourceMappingURL=latestArticles.css.map */

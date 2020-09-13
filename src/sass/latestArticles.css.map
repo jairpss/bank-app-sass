@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,eAAe,CAAA;EACX,MAAM,EAAE,aAAa;CAaxB;;AAZI,AAAD,qBAAO,CAAA;EACH,OAAO,EAAE,IAAI;EACb,YAAY,EAAE,KAAK;CACtB;;AACA,AAAD,qBAAO,CAAA;EACH,aAAa,EAAE,IAAI;EACnB,QAAQ,EAAE,MAAM;CAKnB;;AAPA,AAGG,qBAHG,CAGH,GAAG,CAAA;EACC,KAAK,EAAE,IAAI;EACX,UAAU,EAAE,KAAK;CACpB",
+    "sources": [
+        "latestArticles.scss"
+    ],
+    "names": [],
+    "file": "latestArticles.css"
+}

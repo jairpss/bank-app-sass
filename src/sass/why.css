@@ -1,10 +1,18 @@
 .why {
   text-align: center;
-  background: #9698a6;
+  background: #f3f4f6;
   padding-top: 5em;
 }
 
 .why .copy {
   margin-bottom: 4em;
+}
+
+.why__item .copy {
+  margin-bottom: 2em;
+}
+
+.why__item img {
+  margin-bottom: 1.5em;
 }
 /*# sourceMappingURL=why.css.map */

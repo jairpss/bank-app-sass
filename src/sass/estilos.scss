@@ -3,7 +3,7 @@
 @import "./menu.scss";
 @import "./why.scss";
 @import "./variables.scss";
-
+@import "./latestArticles.scss";
 
 body{
     font-family: 'Public Sans', sans-serif;
@@ -29,6 +29,10 @@ body{
     &__h2{
         @extend .title__h1;
         font-size: 1.5em;
+    }
+    &__h3{
+        @extend .title__h1;
+        font-size: 1em;
     }
 }
 .button{
