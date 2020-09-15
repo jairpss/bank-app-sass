@@ -1,21 +1,38 @@
 .latestArticles {
-  border: 1px solid red;
+  padding-top: 5em 0;
+}
+
+.latestArticles .title__h1 {
+  margin-top: 1em;
+  text-align: center;
 }
 
 .latestArticles__grid {
   display: -ms-grid;
   display: grid;
-  grid-row-gap: 100px;
+  grid-row-gap: 2em;
 }
 
 .latestArticles__item {
   border-radius: .5em;
   overflow: hidden;
+  background: white;
+}
+
+.latestArticles__item-content {
+  padding: 1.8em;
+}
+
+.latestArticles__item small {
+  color: #9698a6;
+  margin: 1em;
+  display: block;
 }
 
 .latestArticles__item img {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  display: block;
 }
 /*# sourceMappingURL=latestArticles.css.map */

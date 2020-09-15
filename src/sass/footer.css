@@ -1,0 +1,37 @@
+.footer {
+  background: #2d314d;
+  color: white;
+  padding: 2em 0;
+  text-align: center;
+}
+
+.footer img {
+  display: block;
+  margin: auto;
+  margin-bottom: 1.5em;
+}
+
+.footer__link {
+  display: block;
+  color: #f3f4f6;
+  text-decoration: none;
+  margin-bottom: 2em;
+}
+
+.footer__social {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (25px)[5];
+      grid-template-columns: repeat(5, 25px);
+  grid-column-gap: 1em;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 2.5em 0;
+}
+
+.footer__copyright {
+  color: #9698a6;
+  margin-top: 2.5em;
+}
+/*# sourceMappingURL=footer.css.map */

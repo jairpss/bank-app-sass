@@ -1,13 +1,16 @@
+@import "./variables.scss";
+
 .latestArticles{
     // minuto 2:11:00
     padding-top: 5em 0;
-    background: $veryLightGray;
+    //background: $veryLightGray;
     .title__h1{
+        margin-top: 1em;
         text-align: center;
     }
-    .title__h3{
-        text-align: left;
-    }
+    // .title__h3{
+    //     text-align: left;
+    // }
     &__grid{
         display: grid;
         grid-row-gap: 2em;
