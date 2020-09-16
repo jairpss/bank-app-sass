@@ -1,5 +1,6 @@
 .latestArticles {
   padding-top: 5em 0;
+  background: #fafafa;
 }
 
 .latestArticles .title__h1 {
@@ -21,6 +22,10 @@
 
 .latestArticles__item-content {
   padding: 1.8em;
+}
+
+.latestArticles__item .copy {
+  color: #9698a6;
 }
 
 .latestArticles__item small {
