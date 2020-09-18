@@ -34,6 +34,7 @@
         grid-template-areas: "description image";
     -ms-grid-columns: 480px 1fr;
         grid-template-columns: 480px 1fr;
+    position: relative;
   }
   .hero__description {
     -ms-grid-row: 1;
@@ -46,11 +47,21 @@
     grid-area: image;
     min-height: inherit;
     position: absolute;
-    width: 730px;
-    right: 0;
+    width: 500px;
+    left: 0px;
     height: 768px;
-    background: url("../images/image-mockups.png") right -100px bottom no-repeat;
+    background: url("../images/image-mockups.png") left -100px bottom no-repeat;
     background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .hero__image {
+    background: url("../images/image-mockups.png") right -100px bottom no-repeat;
+    background-size: 100%;
+    width: 730px;
+    left: 150px;
+    top: 0;
   }
 }
 /*# sourceMappingURL=hero.css.map */
