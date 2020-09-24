@@ -13,6 +13,7 @@
         <div class="wrapper">
             <div class="header__content">
                 <img class="header__logo" src="./src/images/logo.svg" alt="">
+                <input type="checkbox" id="menu" class="menu__checkbox">
                 <ul class="menu">
                     <li>
                         <a href="#">Home</a>
@@ -31,7 +32,7 @@
                     </li>
                 </ul>
                 <button class="button">Request Invite</button>
-                <nav class="menu__button"></nav> 
+                <label for="menu" class="menu__button"></label> 
             </div>
         </div>
     </header>
@@ -141,7 +142,7 @@
     <footer class="footer">
         <div class="wrapper">
             <!-- white logo -->
-            <img src="./src/images/logo-white.svg" alt="">
+            <img class="footer__logo" src="./src/images/logo-white.svg" alt="">
             <p class="footer__social">
                 <a href="#" class="icon__facebook"></a>
                 <a href="#" class="icon__youtube"></a>
@@ -149,33 +150,33 @@
                 <a href="#" class="icon__pinterest"></a>
                 <a href="#" class="icon__instagram"></a>
             </p>
-            <a href="#" class="footer__link">
-                About Us
-            </a>
-            <a href="#" class="footer__link">
-                Contact
-            </a>
-            <a href="#" class="footer__link">
-                Blog
-            </a>
-            <a href="#" class="footer__link">
-                Careers
-            </a>
-            <a href="#" class="footer__link">
-                Support 
-            </a>
-            <a href="#" class="footer__link">
-                Privacy Policy
-            </a>
+            <div class="footer__links">
+                <a href="#" class="footer__link">
+                    About Us
+                </a>
+                <a href="#" class="footer__link">
+                    Contact
+                </a>
+                <a href="#" class="footer__link">
+                    Blog
+                </a>
+                <a href="#" class="footer__link">
+                    Careers
+                </a>
+                <a href="#" class="footer__link">
+                    Support 
+                </a>
+                <a href="#" class="footer__link">
+                    Privacy Policy
+                </a>
+            </div>
+            <div class="footer__button">
+                <button class="button">
+                    Request Invite
+                </button>
+            </div>
+            <p class="footer__copyright">© Easybank. All Rights Reserved</p>
         </div>
-        <div>
-            <button class="button">
-                Request Invite
-            </button>
-        </div>
-        <p class="footer__copyright">© Easybank. All Rights Reserved</p>
-        
     </footer>
 </body>
-
 </html>

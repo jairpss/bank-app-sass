@@ -4,8 +4,8 @@
 }
 
 .latestArticles .title__h1 {
-  margin-top: 1em;
   text-align: center;
+  margin-bottom: 1em;
 }
 
 .latestArticles__grid {
@@ -42,6 +42,9 @@
 }
 
 @media screen and (min-width: 768px) {
+  .latestArticles .title__h1 {
+    text-align: left;
+  }
   .latestArticles__item-content {
     padding: 1em;
   }

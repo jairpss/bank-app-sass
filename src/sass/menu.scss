@@ -13,6 +13,13 @@
         color: $grayishBlue;
         padding: 0 .8em;
     }
+    &__checkbox{
+        &:checked{
+            & ~ .menu{
+                display: block;
+            }
+        }
+    }
     @media screen and (min-width: 1024px){
         display: flex;
         &__button{

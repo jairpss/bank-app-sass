@@ -15,6 +15,10 @@
   padding: 0 .8em;
 }
 
+.menu__checkbox:checked ~ .menu {
+  display: block;
+}
+
 @media screen and (min-width: 1024px) {
   .menu {
     display: -webkit-box;
