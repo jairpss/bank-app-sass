@@ -6,6 +6,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  position: relative;
 }
 
 .header__logo {
@@ -112,6 +113,8 @@
 .menu {
   display: none;
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .menu__button {
@@ -128,6 +131,22 @@
 
 .menu__checkbox:checked ~ .menu {
   display: block;
+  position: absolute;
+  top: 100%;
+  padding: 1em;
+  background: -webkit-gradient(linear, left top, left bottom, from(#2d314d), color-stop(90%, transparent));
+  background: linear-gradient(to bottom, #2d314d 0%, transparent 90%);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100vh;
+}
+
+.menu__checkbox:checked ~ .menu a {
+  background: #fafafa;
+  padding: .5em 1em;
+  display: block;
+  text-align: center;
 }
 
 @media screen and (min-width: 1024px) {

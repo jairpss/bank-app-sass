@@ -3,6 +3,8 @@
 .menu{
     display: none;
     list-style: none;
+    padding: 0;
+    margin: 0;
     &__button {
         width: 40px;
         height: 40px;
@@ -17,6 +19,20 @@
         &:checked{
             & ~ .menu{
                 display: block;
+                position: absolute;
+                top: 100%;
+                padding: 1em;
+                background: linear-gradient(to bottom, $darkBlue 0%, transparent 90%);
+                left: 0;
+                right: 0;
+                bottom: 0;
+                height: 100vh;
+                a{
+                    background: $veryLightGray;
+                    padding: .5em 1em;
+                    display: block;
+                    text-align: center;
+                }
             }
         }
     }
