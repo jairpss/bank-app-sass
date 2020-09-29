@@ -1,8 +1,7 @@
 @import "./variables.scss";
 
 .latestArticles{
-    // minuto 2:11:00
-    padding-top: 5em 0;
+    padding: 5em 0;
     background: $veryLightGray;
     .title__h1{
         // margin-top: 1em;
@@ -20,6 +19,13 @@
         border-radius: .5em;
         overflow: hidden;
         background: $white;
+        &:hover{
+            cursor: pointer;
+            .title__h3{
+                color: $limeGreen;
+            }
+        }
+        
         &-content{
             padding: 1.8em;
         }

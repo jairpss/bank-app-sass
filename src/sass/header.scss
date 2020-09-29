@@ -1,10 +1,13 @@
 @import "./variables.scss";
 
 .header{
-    display: flex;
+    //display: flex;
     padding: 1em 0;
     justify-content: space-between;
-    position: relative;
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+    background: $white;
     &__logo{
         align-self: center;
     }

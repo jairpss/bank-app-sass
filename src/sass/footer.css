@@ -18,6 +18,10 @@
   margin-bottom: 2em;
 }
 
+.footer__link:hover {
+  color: #31d35c;
+}
+
 .footer__social {
   display: -ms-grid;
   display: grid;

@@ -14,9 +14,20 @@
         text-decoration: none;
         color: $grayishBlue;
         padding: 0 .8em;
+        &:hover{
+            color: $darkBlue;
+        }
+    }
+    &__item{
+        display: flex;
+        align-items: center;
     }
     &__checkbox{
+        display: none;
         &:checked{
+            & ~ .menu__button{
+                background: url('../images/icon-close.svg') no-repeat center;
+            }
             & ~ .menu{
                 display: block;
                 position: absolute;
@@ -25,13 +36,25 @@
                 background: linear-gradient(to bottom, $darkBlue 0%, transparent 90%);
                 left: 0;
                 right: 0;
-                bottom: 0;
+                // bottom: 0;
                 height: 100vh;
+                .menu__item{
+                    &:first-of-type a{
+                        padding-top: 2em;
+                        border-radius: .3em .3em 0 0;
+                    }
+                    &:last-of-type a{
+                        padding-bottom: 2em;
+                        border-radius: 0 0 .3em .3em;
+                    }
+                }
                 a{
                     background: $veryLightGray;
-                    padding: .5em 1em;
+                    color: $darkBlue;
+                    padding: .8em 1em;
                     display: block;
                     text-align: center;
+                    flex: 1;
                 }
             }
         }
