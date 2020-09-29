@@ -7,7 +7,7 @@
 Thanks for checking out this front-end coding challenge.
 By [Frontend Mentor](https://www.frontendmentor.io)
 
-**To do this challenge, yI used HTML, CSS and JavaScript.**
+**To do this challenge, I used HTML, CSS and JavaScript.**
 
 ## The challenge
 
